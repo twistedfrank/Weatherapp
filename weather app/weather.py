@@ -72,34 +72,3 @@ def main():
         print("Exiting.")
         exit
 main()
-
-
-
-# def get_weather():
-    
-#     user_location = input("Enter a location: ")
-#     url = f"http://{base_url}/current.json?key={api}&q={user_location}"
-    
-#     response = requests.get(url)
-#     if response.status_code == 200:
-
-#         data = response.json()
-
-#         if data["current"]["temp_f"] >= 80 and data["current"]["temp_f"] <= 90:
-#             print(f"It's warm outside")
-#         elif data["current"]["temp_f"] >= 90 and data["current"]["temp_f"] <= 100:
-#             print(f"It's really hot outside", )
-#         print("")
-#         print(f"Location:", data["location"]["name"])
-#         print(f"Tempature:", data["current"]["temp_f"])
-#         print(f"Feels like:", data["current"]["feelslike_f"])
-#         print(f"Current wind speed:", data["current"]["wind_mph"])
-#         print("--------------"
-#         print(f"Condition:", data["current"]["condition"]["text"])
-#     if response.status_code == 404:
-#         print("error 404")
-
-# def main():
-#     get_weather()
-#     print(ascii.sun)
-# main() 
