@@ -5,7 +5,7 @@ import requests
 # Dumb global variable cause im dumb
 
 # Input your api key here. sign up at weatherapi.com to get a free api key
-api = "915aa4045ba442f095020221250707"
+api = ""
 # Base url for the api itself
 base_url = "api.weatherapi.com/v1"
 # user_location = input("Enter a location: ")
